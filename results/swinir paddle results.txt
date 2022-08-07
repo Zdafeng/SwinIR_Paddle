@@ -1,0 +1,480 @@
+loading model from model_zoo/swinir/001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pdparams
+W0628 05:33:45.992995 12184 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:33:45.995221 12184 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:33:46.444067 12184 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 37.47 dB; SSIM: 0.9607; PSNR_Y: 39.01 dB; SSIM_Y: 0.9684; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 40.87 dB; SSIM: 0.9848; PSNR_Y: 43.58 dB; SSIM_Y: 0.9911; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 34.62 dB; SSIM: 0.9737; PSNR_Y: 36.26 dB; SSIM_Y: 0.9811; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 32.35 dB; SSIM: 0.8359; PSNR_Y: 36.11 dB; SSIM_Y: 0.8932; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 35.43 dB; SSIM: 0.9725; PSNR_Y: 36.81 dB; SSIM_Y: 0.9761; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x2
+-- Average PSNR/SSIM(RGB): 36.15 dB; 0.9455
+-- Average PSNR_Y/SSIM_Y: 38.35 dB; 0.9620
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DIV2K_s48w8_SwinIR-M_x3.pdparams
+W0628 05:33:54.104151 12259 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:33:54.106155 12259 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:33:54.576123 12259 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 34.31 dB; SSIM: 0.9153; PSNR_Y: 35.84 dB; SSIM_Y: 0.9316; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 36.26 dB; SSIM: 0.9617; PSNR_Y: 38.65 dB; SSIM_Y: 0.9745; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 30.83 dB; SSIM: 0.9478; PSNR_Y: 32.30 dB; SSIM_Y: 0.9595; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 30.93 dB; SSIM: 0.7703; PSNR_Y: 34.24 dB; SSIM_Y: 0.8399; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 32.06 dB; SSIM: 0.9437; PSNR_Y: 33.43 dB; SSIM_Y: 0.9507; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x3
+-- Average PSNR/SSIM(RGB): 32.88 dB; 0.9078
+-- Average PSNR_Y/SSIM_Y: 34.89 dB; 0.9312
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DIV2K_s48w8_SwinIR-M_x4.pdparams
+W0628 05:34:01.731070 12334 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:34:01.733521 12334 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:34:02.209048 12334 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 32.47 dB; SSIM: 0.8728; PSNR_Y: 33.99 dB; SSIM_Y: 0.8972; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 33.41 dB; SSIM: 0.9328; PSNR_Y: 35.65 dB; SSIM_Y: 0.9524; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 28.21 dB; SSIM: 0.9211; PSNR_Y: 29.64 dB; SSIM_Y: 0.9372; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 30.04 dB; SSIM: 0.7251; PSNR_Y: 33.10 dB; SSIM_Y: 0.8012; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 29.85 dB; SSIM: 0.9120; PSNR_Y: 31.22 dB; SSIM_Y: 0.9226; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x4
+-- Average PSNR/SSIM(RGB): 30.80 dB; 0.8728
+-- Average PSNR_Y/SSIM_Y: 32.72 dB; 0.9021
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DIV2K_s48w8_SwinIR-M_x8.pdparams
+W0628 05:34:09.487740 12409 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:34:09.489871 12409 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:34:10.092233 12409 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 28.03 dB; SSIM: 0.7476; PSNR_Y: 29.32 dB; SSIM_Y: 0.7852; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 26.27 dB; SSIM: 0.7736; PSNR_Y: 28.33 dB; SSIM_Y: 0.8124; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 21.92 dB; SSIM: 0.7912; PSNR_Y: 23.23 dB; SSIM_Y: 0.8237; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 27.83 dB; SSIM: 0.6210; PSNR_Y: 30.40 dB; SSIM_Y: 0.7087; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 24.21 dB; SSIM: 0.7832; PSNR_Y: 25.58 dB; SSIM_Y: 0.8084; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x8
+-- Average PSNR/SSIM(RGB): 25.65 dB; 0.7433
+-- Average PSNR_Y/SSIM_Y: 27.37 dB; 0.7877
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x2.pdparams
+W0628 05:34:21.065326 12484 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:34:21.067560 12484 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:34:21.547111 12484 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 37.53 dB; SSIM: 0.9613; PSNR_Y: 39.04 dB; SSIM_Y: 0.9686; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 40.95 dB; SSIM: 0.9851; PSNR_Y: 43.69 dB; SSIM_Y: 0.9912; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 34.64 dB; SSIM: 0.9739; PSNR_Y: 36.28 dB; SSIM_Y: 0.9812; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 32.37 dB; SSIM: 0.8364; PSNR_Y: 36.12 dB; SSIM_Y: 0.8935; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 35.56 dB; SSIM: 0.9735; PSNR_Y: 36.94 dB; SSIM_Y: 0.9769; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x2
+-- Average PSNR/SSIM(RGB): 36.21 dB; 0.9460
+-- Average PSNR_Y/SSIM_Y: 38.42 dB; 0.9623
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x3.pdparams
+W0628 05:34:29.222312 12559 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:34:29.224304 12559 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:34:29.711146 12559 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 34.34 dB; SSIM: 0.9158; PSNR_Y: 35.86 dB; SSIM_Y: 0.9318; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 36.43 dB; SSIM: 0.9630; PSNR_Y: 38.87 dB; SSIM_Y: 0.9756; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 30.86 dB; SSIM: 0.9490; PSNR_Y: 32.33 dB; SSIM_Y: 0.9605; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 30.94 dB; SSIM: 0.7708; PSNR_Y: 34.25 dB; SSIM_Y: 0.8402; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 32.19 dB; SSIM: 0.9442; PSNR_Y: 33.56 dB; SSIM_Y: 0.9510; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x3
+-- Average PSNR/SSIM(RGB): 32.95 dB; 0.9085
+-- Average PSNR_Y/SSIM_Y: 34.97 dB; 0.9318
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pdparams
+W0628 05:34:46.577219 12634 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:34:46.580662 12634 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:34:47.079090 12634 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 32.54 dB; SSIM: 0.8744; PSNR_Y: 34.05 dB; SSIM_Y: 0.8985; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 33.66 dB; SSIM: 0.9365; PSNR_Y: 35.93 dB; SSIM_Y: 0.9542; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 28.55 dB; SSIM: 0.9250; PSNR_Y: 29.96 dB; SSIM_Y: 0.9403; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 30.09 dB; SSIM: 0.7270; PSNR_Y: 33.15 dB; SSIM_Y: 0.8026; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 30.11 dB; SSIM: 0.9163; PSNR_Y: 31.48 dB; SSIM_Y: 0.9262; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x4
+-- Average PSNR/SSIM(RGB): 30.99 dB; 0.8758
+-- Average PSNR_Y/SSIM_Y: 32.92 dB; 0.9044
+
+
+
+
+loading model from model_zoo/swinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x8.pdparams
+W0628 05:34:54.737555 12709 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:34:54.740208 12709 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:34:55.220335 12709 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 28.09 dB; SSIM: 0.7499; PSNR_Y: 29.39 dB; SSIM_Y: 0.7873; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 26.51 dB; SSIM: 0.7850; PSNR_Y: 28.61 dB; SSIM_Y: 0.8221; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 22.08 dB; SSIM: 0.8060; PSNR_Y: 23.38 dB; SSIM_Y: 0.8339; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 27.90 dB; SSIM: 0.6230; PSNR_Y: 30.49 dB; SSIM_Y: 0.7102; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 24.53 dB; SSIM: 0.7922; PSNR_Y: 25.91 dB; SSIM_Y: 0.8168; PSNR_B: 0.00 dB.
+
+results/swinir_classical_sr_x8
+-- Average PSNR/SSIM(RGB): 25.82 dB; 0.7512
+-- Average PSNR_Y/SSIM_Y: 27.55 dB; 0.7941
+
+
+
+
+loading model from model_zoo/swinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pdparams
+W0628 05:35:02.175038 12784 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:35:02.177174 12784 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:35:02.655489 12784 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 37.40 dB; SSIM: 0.9603; PSNR_Y: 38.94 dB; SSIM_Y: 0.9681; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 40.59 dB; SSIM: 0.9841; PSNR_Y: 43.28 dB; SSIM_Y: 0.9906; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 34.13 dB; SSIM: 0.9718; PSNR_Y: 35.75 dB; SSIM_Y: 0.9795; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 32.33 dB; SSIM: 0.8345; PSNR_Y: 36.07 dB; SSIM_Y: 0.8922; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 35.28 dB; SSIM: 0.9716; PSNR_Y: 36.65 dB; SSIM_Y: 0.9752; PSNR_B: 0.00 dB.
+
+results/swinir_lightweight_sr_x2
+-- Average PSNR/SSIM(RGB): 35.95 dB; 0.9445
+-- Average PSNR_Y/SSIM_Y: 38.14 dB; 0.9611
+
+
+
+
+loading model from model_zoo/swinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x3.pdparams
+W0628 05:35:09.101954 12859 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:35:09.104399 12859 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:35:09.592797 12859 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 34.22 dB; SSIM: 0.9140; PSNR_Y: 35.75 dB; SSIM_Y: 0.9305; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 35.98 dB; SSIM: 0.9597; PSNR_Y: 38.38 dB; SSIM_Y: 0.9732; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 30.16 dB; SSIM: 0.9425; PSNR_Y: 31.64 dB; SSIM_Y: 0.9557; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 30.87 dB; SSIM: 0.7673; PSNR_Y: 34.15 dB; SSIM_Y: 0.8373; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 31.81 dB; SSIM: 0.9409; PSNR_Y: 33.18 dB; SSIM_Y: 0.9481; PSNR_B: 0.00 dB.
+
+results/swinir_lightweight_sr_x3
+-- Average PSNR/SSIM(RGB): 32.61 dB; 0.9049
+-- Average PSNR_Y/SSIM_Y: 34.62 dB; 0.9289
+
+
+
+
+loading model from model_zoo/swinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pdparams
+W0628 05:35:16.136785 12934 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:35:16.138881 12934 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:35:16.632150 12934 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baby                 - PSNR: 32.32 dB; SSIM: 0.8700; PSNR_Y: 33.83 dB; SSIM_Y: 0.8947; PSNR_B: 0.00 dB.
+Testing 1 bird                 - PSNR: 33.12 dB; SSIM: 0.9289; PSNR_Y: 35.37 dB; SSIM_Y: 0.9472; PSNR_B: 0.00 dB.
+Testing 2 butterfly            - PSNR: 27.74 dB; SSIM: 0.9139; PSNR_Y: 29.18 dB; SSIM_Y: 0.9319; PSNR_B: 0.00 dB.
+Testing 3 head                 - PSNR: 29.96 dB; SSIM: 0.7218; PSNR_Y: 32.99 dB; SSIM_Y: 0.7982; PSNR_B: 0.00 dB.
+Testing 4 woman                - PSNR: 29.46 dB; SSIM: 0.9050; PSNR_Y: 30.84 dB; SSIM_Y: 0.9162; PSNR_B: 0.00 dB.
+
+results/swinir_lightweight_sr_x4
+-- Average PSNR/SSIM(RGB): 30.52 dB; 0.8679
+-- Average PSNR_Y/SSIM_Y: 32.44 dB; 0.8976
+
+
+
+
+loading model from model_zoo/swinir/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN.pdparams
+W0628 05:51:04.637887 14642 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:51:04.640966 14642 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:51:05.159801 14642 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 00003
+Testing 1 0014
+Testing 2 0030
+Testing 3 ADE_val_00000114
+Testing 4 Lincoln
+Testing 5 OST_009
+Testing 6 building
+Testing 7 butterfly
+Testing 8 butterfly2
+Testing 9 chip
+Testing 10 comic1
+Testing 11 comic2
+Testing 12 comic3
+Testing 13 computer
+Testing 14 dog
+Testing 15 dped_crop00061
+Testing 16 foreman
+Testing 17 frog
+Testing 18 oldphoto2
+Testing 19 oldphoto3
+Testing 20 oldphoto6
+Testing 21 painting
+Testing 22 pattern
+Testing 23 ppt3
+Testing 24 tiger
+
+
+
+
+loading model from model_zoo/swinir/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pdparams
+W0628 05:35:28.871904 13084 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:35:28.874630 13084 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:35:29.348446 13084 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 00003
+Testing 1 0014
+Testing 2 0030
+Testing 3 ADE_val_00000114
+Testing 4 Lincoln
+Testing 5 OST_009
+Testing 6 building
+Testing 7 butterfly
+Testing 8 butterfly2
+Testing 9 chip
+Testing 10 comic1
+Testing 11 comic2
+Testing 12 comic3
+Testing 13 computer
+Testing 14 dog
+Testing 15 dped_crop00061
+Testing 16 foreman
+Testing 17 frog
+Testing 18 oldphoto2
+Testing 19 oldphoto3
+Testing 20 oldphoto6
+Testing 21 painting
+Testing 22 pattern
+Testing 23 ppt3
+Testing 24 tiger
+
+
+
+
+loading model from model_zoo/swinir/004_grayDN_DFWB_s128w8_SwinIR-M_noise15.pdparams
+W0628 05:35:52.928436 13159 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:35:52.930732 13159 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:35:54.062803 13159 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 01                   - PSNR: 33.04 dB; SSIM: 0.9169; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 1 02                   - PSNR: 35.91 dB; SSIM: 0.9099; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 2 03                   - PSNR: 33.66 dB; SSIM: 0.9162; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 3 04                   - PSNR: 32.57 dB; SSIM: 0.9201; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 4 05                   - PSNR: 33.68 dB; SSIM: 0.9541; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 5 06                   - PSNR: 32.08 dB; SSIM: 0.9125; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 6 07                   - PSNR: 32.16 dB; SSIM: 0.9105; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 7 08                   - PSNR: 34.97 dB; SSIM: 0.9088; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 8 09                   - PSNR: 33.98 dB; SSIM: 0.9349; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 9 10                   - PSNR: 32.81 dB; SSIM: 0.8710; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 10 11                   - PSNR: 32.67 dB; SSIM: 0.8858; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 11 12                   - PSNR: 32.83 dB; SSIM: 0.8916; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+
+results/swinir_gray_dn_noise15
+-- Average PSNR/SSIM(RGB): 33.36 dB; 0.9110
+
+
+
+
+loading model from model_zoo/swinir/004_grayDN_DFWB_s128w8_SwinIR-M_noise25.pdparams
+W0628 05:36:08.805933 13234 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:36:08.808195 13234 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:36:10.107527 13234 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 01                   - PSNR: 30.69 dB; SSIM: 0.8826; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 1 02                   - PSNR: 33.91 dB; SSIM: 0.8729; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 2 03                   - PSNR: 31.28 dB; SSIM: 0.8862; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 3 04                   - PSNR: 29.96 dB; SSIM: 0.8779; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 4 05                   - PSNR: 30.95 dB; SSIM: 0.9295; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 5 06                   - PSNR: 29.44 dB; SSIM: 0.8763; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 6 07                   - PSNR: 29.75 dB; SSIM: 0.8693; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 7 08                   - PSNR: 32.98 dB; SSIM: 0.8837; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 8 09                   - PSNR: 31.69 dB; SSIM: 0.9094; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 9 10                   - PSNR: 30.64 dB; SSIM: 0.8250; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 10 11                   - PSNR: 30.32 dB; SSIM: 0.8297; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 11 12                   - PSNR: 30.57 dB; SSIM: 0.8468; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+
+results/swinir_gray_dn_noise25
+-- Average PSNR/SSIM(RGB): 31.01 dB; 0.8741
+
+
+
+
+loading model from model_zoo/swinir/004_grayDN_DFWB_s128w8_SwinIR-M_noise50.pdparams
+W0628 05:36:26.169051 13309 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:36:26.171433 13309 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:36:27.367947 13309 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 01                   - PSNR: 27.79 dB; SSIM: 0.8278; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 1 02                   - PSNR: 31.11 dB; SSIM: 0.8383; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 2 03                   - PSNR: 27.91 dB; SSIM: 0.8276; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 3 04                   - PSNR: 26.55 dB; SSIM: 0.8031; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 4 05                   - PSNR: 27.31 dB; SSIM: 0.8723; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 5 06                   - PSNR: 26.14 dB; SSIM: 0.8087; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 6 07                   - PSNR: 26.91 dB; SSIM: 0.8078; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 7 08                   - PSNR: 30.11 dB; SSIM: 0.8374; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 8 09                   - PSNR: 28.41 dB; SSIM: 0.8480; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 9 10                   - PSNR: 27.70 dB; SSIM: 0.7437; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 10 11                   - PSNR: 27.45 dB; SSIM: 0.7375; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+Testing 11 12                   - PSNR: 27.53 dB; SSIM: 0.7625; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 0.00 dB.
+
+results/swinir_gray_dn_noise50
+-- Average PSNR/SSIM(RGB): 27.91 dB; 0.8096
+
+
+
+
+loading model from model_zoo/swinir/005_colorDN_DFWB_s128w8_SwinIR-M_noise15.pdparams
+W0628 05:36:43.507422 13384 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:36:43.509958 13384 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:36:43.987841 13384 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 1                    - PSNR: 32.18 dB; SSIM: 0.9201; PSNR_Y: 35.05 dB; SSIM_Y: 0.9435; PSNR_B: 0.00 dB.
+Testing 1 10                   - PSNR: 36.36 dB; SSIM: 0.9440; PSNR_Y: 39.46 dB; SSIM_Y: 0.9675; PSNR_B: 0.00 dB.
+Testing 2 11                   - PSNR: 36.56 dB; SSIM: 0.9353; PSNR_Y: 38.85 dB; SSIM_Y: 0.9565; PSNR_B: 0.00 dB.
+Testing 3 12                   - PSNR: 37.85 dB; SSIM: 0.9479; PSNR_Y: 40.72 dB; SSIM_Y: 0.9762; PSNR_B: 0.00 dB.
+Testing 4 13                   - PSNR: 39.42 dB; SSIM: 0.9352; PSNR_Y: 43.45 dB; SSIM_Y: 0.9759; PSNR_B: 0.00 dB.
+Testing 5 14                   - PSNR: 36.99 dB; SSIM: 0.9249; PSNR_Y: 40.33 dB; SSIM_Y: 0.9615; PSNR_B: 0.00 dB.
+Testing 6 15                   - PSNR: 36.92 dB; SSIM: 0.9236; PSNR_Y: 40.34 dB; SSIM_Y: 0.9585; PSNR_B: 0.00 dB.
+Testing 7 16                   - PSNR: 33.37 dB; SSIM: 0.9287; PSNR_Y: 35.10 dB; SSIM_Y: 0.9479; PSNR_B: 0.00 dB.
+Testing 8 17                   - PSNR: 33.63 dB; SSIM: 0.9240; PSNR_Y: 36.99 dB; SSIM_Y: 0.9487; PSNR_B: 0.00 dB.
+Testing 9 18                   - PSNR: 34.33 dB; SSIM: 0.9251; PSNR_Y: 36.00 dB; SSIM_Y: 0.9431; PSNR_B: 0.00 dB.
+Testing 10 2                    - PSNR: 34.40 dB; SSIM: 0.9191; PSNR_Y: 37.66 dB; SSIM_Y: 0.9545; PSNR_B: 0.00 dB.
+Testing 11 3                    - PSNR: 33.79 dB; SSIM: 0.9513; PSNR_Y: 36.31 dB; SSIM_Y: 0.9687; PSNR_B: 0.00 dB.
+Testing 12 4                    - PSNR: 37.10 dB; SSIM: 0.9670; PSNR_Y: 39.88 dB; SSIM_Y: 0.9784; PSNR_B: 0.00 dB.
+Testing 13 5                    - PSNR: 34.80 dB; SSIM: 0.9287; PSNR_Y: 37.85 dB; SSIM_Y: 0.9546; PSNR_B: 0.00 dB.
+Testing 14 6                    - PSNR: 35.91 dB; SSIM: 0.9344; PSNR_Y: 39.09 dB; SSIM_Y: 0.9608; PSNR_B: 0.00 dB.
+Testing 15 7                    - PSNR: 33.88 dB; SSIM: 0.9198; PSNR_Y: 35.67 dB; SSIM_Y: 0.9386; PSNR_B: 0.00 dB.
+Testing 16 8                    - PSNR: 37.06 dB; SSIM: 0.9532; PSNR_Y: 39.31 dB; SSIM_Y: 0.9733; PSNR_B: 0.00 dB.
+Testing 17 9                    - PSNR: 36.46 dB; SSIM: 0.9399; PSNR_Y: 39.43 dB; SSIM_Y: 0.9682; PSNR_B: 0.00 dB.
+
+results/swinir_color_dn_noise15
+-- Average PSNR/SSIM(RGB): 35.61 dB; 0.9346
+-- Average PSNR_Y/SSIM_Y: 38.42 dB; 0.9598
+
+
+
+
+loading model from model_zoo/swinir/005_colorDN_DFWB_s128w8_SwinIR-M_noise25.pdparams
+W0628 05:37:16.572494 13459 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:37:16.574879 13459 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:37:17.045354 13459 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 1                    - PSNR: 29.69 dB; SSIM: 0.8764; PSNR_Y: 32.38 dB; SSIM_Y: 0.9076; PSNR_B: 0.00 dB.
+Testing 1 10                   - PSNR: 34.03 dB; SSIM: 0.9183; PSNR_Y: 36.86 dB; SSIM_Y: 0.9481; PSNR_B: 0.00 dB.
+Testing 2 11                   - PSNR: 34.28 dB; SSIM: 0.9063; PSNR_Y: 36.35 dB; SSIM_Y: 0.9320; PSNR_B: 0.00 dB.
+Testing 3 12                   - PSNR: 35.64 dB; SSIM: 0.9359; PSNR_Y: 38.05 dB; SSIM_Y: 0.9664; PSNR_B: 0.00 dB.
+Testing 4 13                   - PSNR: 38.09 dB; SSIM: 0.9288; PSNR_Y: 41.60 dB; SSIM_Y: 0.9715; PSNR_B: 0.00 dB.
+Testing 5 14                   - PSNR: 35.28 dB; SSIM: 0.9068; PSNR_Y: 38.40 dB; SSIM_Y: 0.9488; PSNR_B: 0.00 dB.
+Testing 6 15                   - PSNR: 35.07 dB; SSIM: 0.8994; PSNR_Y: 38.30 dB; SSIM_Y: 0.9424; PSNR_B: 0.00 dB.
+Testing 7 16                   - PSNR: 30.66 dB; SSIM: 0.8797; PSNR_Y: 32.16 dB; SSIM_Y: 0.9046; PSNR_B: 0.00 dB.
+Testing 8 17                   - PSNR: 30.97 dB; SSIM: 0.8764; PSNR_Y: 34.21 dB; SSIM_Y: 0.9118; PSNR_B: 0.00 dB.
+Testing 9 18                   - PSNR: 32.04 dB; SSIM: 0.8867; PSNR_Y: 33.45 dB; SSIM_Y: 0.9061; PSNR_B: 0.00 dB.
+Testing 10 2                    - PSNR: 32.20 dB; SSIM: 0.8855; PSNR_Y: 35.13 dB; SSIM_Y: 0.9291; PSNR_B: 0.00 dB.
+Testing 11 3                    - PSNR: 31.02 dB; SSIM: 0.9252; PSNR_Y: 33.31 dB; SSIM_Y: 0.9465; PSNR_B: 0.00 dB.
+Testing 12 4                    - PSNR: 34.57 dB; SSIM: 0.9513; PSNR_Y: 37.15 dB; SSIM_Y: 0.9664; PSNR_B: 0.00 dB.
+Testing 13 5                    - PSNR: 32.38 dB; SSIM: 0.8959; PSNR_Y: 35.32 dB; SSIM_Y: 0.9284; PSNR_B: 0.00 dB.
+Testing 14 6                    - PSNR: 33.52 dB; SSIM: 0.9042; PSNR_Y: 36.48 dB; SSIM_Y: 0.9372; PSNR_B: 0.00 dB.
+Testing 15 7                    - PSNR: 31.42 dB; SSIM: 0.8710; PSNR_Y: 33.09 dB; SSIM_Y: 0.8959; PSNR_B: 0.00 dB.
+Testing 16 8                    - PSNR: 34.69 dB; SSIM: 0.9339; PSNR_Y: 36.70 dB; SSIM_Y: 0.9602; PSNR_B: 0.00 dB.
+Testing 17 9                    - PSNR: 34.11 dB; SSIM: 0.9207; PSNR_Y: 36.80 dB; SSIM_Y: 0.9529; PSNR_B: 0.00 dB.
+
+results/swinir_color_dn_noise25
+-- Average PSNR/SSIM(RGB): 33.31 dB; 0.9057
+-- Average PSNR_Y/SSIM_Y: 35.87 dB; 0.9364
+
+
+
+
+loading model from model_zoo/swinir/005_colorDN_DFWB_s128w8_SwinIR-M_noise50.pdparams
+W0628 05:37:49.893100 13534 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:37:49.895299 13534 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:37:50.383244 13534 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 1                    - PSNR: 26.54 dB; SSIM: 0.7914; PSNR_Y: 29.08 dB; SSIM_Y: 0.8371; PSNR_B: 0.00 dB.
+Testing 1 10                   - PSNR: 30.82 dB; SSIM: 0.8635; PSNR_Y: 33.39 dB; SSIM_Y: 0.9051; PSNR_B: 0.00 dB.
+Testing 2 11                   - PSNR: 31.30 dB; SSIM: 0.8528; PSNR_Y: 33.17 dB; SSIM_Y: 0.8845; PSNR_B: 0.00 dB.
+Testing 3 12                   - PSNR: 32.21 dB; SSIM: 0.9063; PSNR_Y: 34.27 dB; SSIM_Y: 0.9412; PSNR_B: 0.00 dB.
+Testing 4 13                   - PSNR: 35.35 dB; SSIM: 0.9139; PSNR_Y: 38.32 dB; SSIM_Y: 0.9598; PSNR_B: 0.00 dB.
+Testing 5 14                   - PSNR: 32.88 dB; SSIM: 0.8772; PSNR_Y: 35.79 dB; SSIM_Y: 0.9266; PSNR_B: 0.00 dB.
+Testing 6 15                   - PSNR: 32.59 dB; SSIM: 0.8630; PSNR_Y: 35.60 dB; SSIM_Y: 0.9169; PSNR_B: 0.00 dB.
+Testing 7 16                   - PSNR: 27.18 dB; SSIM: 0.7744; PSNR_Y: 28.49 dB; SSIM_Y: 0.8059; PSNR_B: 0.00 dB.
+Testing 8 17                   - PSNR: 27.52 dB; SSIM: 0.7808; PSNR_Y: 30.71 dB; SSIM_Y: 0.8332; PSNR_B: 0.00 dB.
+Testing 9 18                   - PSNR: 29.34 dB; SSIM: 0.8223; PSNR_Y: 30.58 dB; SSIM_Y: 0.8416; PSNR_B: 0.00 dB.
+Testing 10 2                    - PSNR: 29.29 dB; SSIM: 0.8201; PSNR_Y: 31.90 dB; SSIM_Y: 0.8773; PSNR_B: 0.00 dB.
+Testing 11 3                    - PSNR: 27.36 dB; SSIM: 0.8632; PSNR_Y: 29.46 dB; SSIM_Y: 0.8918; PSNR_B: 0.00 dB.
+Testing 12 4                    - PSNR: 31.04 dB; SSIM: 0.9221; PSNR_Y: 33.43 dB; SSIM_Y: 0.9426; PSNR_B: 0.00 dB.
+Testing 13 5                    - PSNR: 29.16 dB; SSIM: 0.8334; PSNR_Y: 32.03 dB; SSIM_Y: 0.8761; PSNR_B: 0.00 dB.
+Testing 14 6                    - PSNR: 30.11 dB; SSIM: 0.8406; PSNR_Y: 32.94 dB; SSIM_Y: 0.8855; PSNR_B: 0.00 dB.
+Testing 15 7                    - PSNR: 28.81 dB; SSIM: 0.7848; PSNR_Y: 30.40 dB; SSIM_Y: 0.8206; PSNR_B: 0.00 dB.
+Testing 16 8                    - PSNR: 31.35 dB; SSIM: 0.8928; PSNR_Y: 33.17 dB; SSIM_Y: 0.9324; PSNR_B: 0.00 dB.
+Testing 17 9                    - PSNR: 30.71 dB; SSIM: 0.8796; PSNR_Y: 33.21 dB; SSIM_Y: 0.9183; PSNR_B: 0.00 dB.
+
+results/swinir_color_dn_noise50
+-- Average PSNR/SSIM(RGB): 30.20 dB; 0.8490
+-- Average PSNR_Y/SSIM_Y: 32.55 dB; 0.8887
+
+
+
+
+loading model from model_zoo/swinir/006_CAR_DFWB_s126w7_SwinIR-M_jpeg10.pdparams
+W0628 05:38:23.028869 13609 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:38:23.031257 13609 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:38:24.243646 13609 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baboon               - PSNR: 25.36 dB; SSIM: 0.7094; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 24.90 dB.
+Testing 1 barbara              - PSNR: 29.81 dB; SSIM: 0.8712; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 29.34 dB.
+Testing 2 boats                - PSNR: 30.29 dB; SSIM: 0.8186; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 30.04 dB.
+Testing 3 lena                 - PSNR: 33.03 dB; SSIM: 0.8800; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 32.79 dB.
+Testing 4 peppers              - PSNR: 32.85 dB; SSIM: 0.8452; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 32.67 dB.
+
+results/swinir_jpeg_car_jpeg10
+-- Average PSNR/SSIM(RGB): 30.27 dB; 0.8249
+-- Average PSNR_B: 29.95 dB
+
+
+
+
+loading model from model_zoo/swinir/006_CAR_DFWB_s126w7_SwinIR-M_jpeg20.pdparams
+W0628 05:38:36.551898 13684 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:38:36.554260 13684 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:38:37.737782 13684 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baboon               - PSNR: 27.32 dB; SSIM: 0.8097; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 26.58 dB.
+Testing 1 barbara              - PSNR: 33.18 dB; SSIM: 0.9233; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 32.05 dB.
+Testing 2 boats                - PSNR: 32.59 dB; SSIM: 0.8697; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 32.23 dB.
+Testing 3 lena                 - PSNR: 35.12 dB; SSIM: 0.9058; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 34.74 dB.
+Testing 4 peppers              - PSNR: 34.41 dB; SSIM: 0.8655; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 34.22 dB.
+
+results/swinir_jpeg_car_jpeg20
+-- Average PSNR/SSIM(RGB): 32.52 dB; 0.8748
+-- Average PSNR_B: 31.96 dB
+
+
+
+
+loading model from model_zoo/swinir/006_CAR_DFWB_s126w7_SwinIR-M_jpeg30.pdparams
+W0628 05:38:50.230090 13759 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:38:50.232484 13759 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:38:51.431785 13759 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baboon               - PSNR: 28.55 dB; SSIM: 0.8532; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 27.63 dB.
+Testing 1 barbara              - PSNR: 34.94 dB; SSIM: 0.9415; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 33.63 dB.
+Testing 2 boats                - PSNR: 33.84 dB; SSIM: 0.8901; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 33.42 dB.
+Testing 3 lena                 - PSNR: 36.23 dB; SSIM: 0.9188; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 35.72 dB.
+Testing 4 peppers              - PSNR: 35.13 dB; SSIM: 0.8768; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 34.74 dB.
+
+results/swinir_jpeg_car_jpeg30
+-- Average PSNR/SSIM(RGB): 33.74 dB; 0.8961
+-- Average PSNR_B: 33.03 dB
+
+
+
+
+loading model from model_zoo/swinir/006_CAR_DFWB_s126w7_SwinIR-M_jpeg40.pdparams
+W0628 05:39:03.229955 13834 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 8.0, Driver API Version: 11.4, Runtime API Version: 11.1
+W0628 05:39:03.232697 13834 device_context.cc:465] device: 0, cuDNN Version: 8.0.
+W0628 05:39:04.456131 13834 device_context.h:397] WARNING: device: 0. The installed Paddle is compiled with CUDNN 8.1, but CUDNN version in your machine is 8.0, which may cause serious incompatible bug. Please recompile or reinstall Paddle with compatible CUDNN version.
+Testing 0 baboon               - PSNR: 29.49 dB; SSIM: 0.8785; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 28.48 dB.
+Testing 1 barbara              - PSNR: 35.94 dB; SSIM: 0.9498; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 34.37 dB.
+Testing 2 boats                - PSNR: 34.60 dB; SSIM: 0.9002; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 34.11 dB.
+Testing 3 lena                 - PSNR: 36.95 dB; SSIM: 0.9276; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 36.17 dB.
+Testing 4 peppers              - PSNR: 35.63 dB; SSIM: 0.8851; PSNR_Y: 0.00 dB; SSIM_Y: 0.0000; PSNR_B: 35.18 dB.
+
+results/swinir_jpeg_car_jpeg40
+-- Average PSNR/SSIM(RGB): 34.52 dB; 0.9082
+-- Average PSNR_B: 33.66 dB
+
+
+
+
